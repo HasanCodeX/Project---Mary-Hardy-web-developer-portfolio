@@ -12,7 +12,10 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles/style.css" />
-  <script src="https://kit.fontawesome.com/43e65de076.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/43e65de076.js"
+    crossorigin="anonymous"
+  ></script>
   <body class="open-sans-custom">
     <header>
       <nav class="nav-design">
@@ -139,9 +142,9 @@
 
       <!-- section>div>h2+div>div*2>h2+div*3>h3+h4+p  -->
       <section>
-        <div>
-          <h2>A summary of My Resume</h2>
-          <div>
+        <div class="resume-box">
+          <h2 class="banner-title" id="resumi-title">A summary of My Resume</h2>
+          <div class="resume-elements">
             <div>
               <h2>My Education</h2>
               <div>
@@ -202,23 +205,11 @@
                 </p>
               </div>
             </div>
-            <div style="text-align: center; margin-top: 20px">
-              <button
-                style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  padding: 10px 20px;
-                  background-color: orange;
-                  color: white;
-                  border: none;
-                  border-radius: 5px;
-                  cursor: pointer;
-                "
-              >
+          </div>
+          <div id="resume-btn">
+            <button class="btn-primary">
               <i class="fa-solid fa-download"></i>Download CV
-              </button>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -228,7 +219,10 @@
     <footer>
       <div>
         <h2>Lets Connect</h2>
-        <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <p>
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+        </p>
         <div>
           <img src="images/icons/facebook.png" alt="" />
           <img src="images/icons/twitter.png" alt="" />
@@ -240,9 +234,13 @@
         <div>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
-          <textarea name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
-          
-          
+          <textarea
+            name=""
+            id=""
+            placeholder="Message"
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
         <div><button>Submit</button></div>
       </div>

@@ -172,7 +172,7 @@ justify-content: space-between;
 
 .about-description {
   padding: 20px;
-  
+
 }
 
 /* what-i-do section-design */
@@ -207,4 +207,22 @@ justify-content: space-between;
   width: 20%;
   height: 20%;
   
+}
+
+/* resumi style  */
+.resume-elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#resumi-title {
+  text-align: center;
+}
+
+#resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
