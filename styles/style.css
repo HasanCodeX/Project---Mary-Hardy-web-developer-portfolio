@@ -142,37 +142,34 @@ ul {
 
 /* about style */
 .about-box {
-    border-radius: 10px;
-    background: rgb(255, 248, 243);
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 70px;
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 70px;
 }
 
 .about-me {
-    position: relative;
-    max-width: 600px;
-    height: auto;
-    margin: 50px auto;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid rgb(200, 200, 200);
-    background: rgb(255, 255, 255);
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 600px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(200, 200, 200);
+  background: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-element {
-display: flex;
-justify-content: space-between;
-
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-description {
   padding: 20px;
-
 }
 
 /* what-i-do section-design */
@@ -181,15 +178,12 @@ justify-content: space-between;
   display: flex;
   justify-content: space-between;
   margin: 50px;
-
-  
 }
-.what-description{
+.what-description {
   padding: 20px;
   color: rgb(117, 117, 117);
-  
 }
-.what-title{
+.what-title {
   text-align: center;
 }
 
@@ -199,14 +193,13 @@ justify-content: space-between;
   background: rgb(255, 255, 255);
   padding-left: 20px;
   margin-left: 2%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
-.img-box{
+.img-box {
   width: 20%;
   height: 20%;
-  
 }
 
 /* resumi style  */
@@ -225,4 +218,32 @@ justify-content: space-between;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+/* footer-style */
+.footer-box {
+  background: rgb(255, 248, 243);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  justify-content: left;
+}
+.footer-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+.footer-text{
+  justify-content: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
 }
