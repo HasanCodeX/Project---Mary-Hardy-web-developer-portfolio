@@ -211,6 +211,7 @@ ul {
 
 #resumi-title {
   text-align: center;
+  color: black;
 }
 
 #resume-btn {
@@ -245,5 +246,5 @@ ul {
   justify-content: left;
   justify-content: center;
   align-items: center;
-  max-width: 400px;
+  max-width: 600px;
 }
